@@ -1,5 +1,5 @@
 - hosts: faraday
-  become: true
+  become: "{{ become | default('yes') }}"
   roles:
     - openwisp.openwisp2
   vars:
