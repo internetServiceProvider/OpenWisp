@@ -1,0 +1,6 @@
+- hosts: faraday
+  become: true
+  roles:
+    - openwisp.openwisp2
+  vars:
+    openwisp2_default_from_email: {{ from_email }}
