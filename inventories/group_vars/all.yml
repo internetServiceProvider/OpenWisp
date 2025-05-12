@@ -1,0 +1,3 @@
+ansible_user: faraday
+ansible_ssh_pass: "not2far"
+ansible_become_password: "not2far"
